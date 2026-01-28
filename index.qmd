@@ -194,6 +194,7 @@ random.sample(presenters, len(presenters))
 ## random.shuffle(presenters) # This would shuffle the list in place
 ```
 
+
 Switching slots is allowed as long as you find someone who
 is willing to switch with you. In this case, make a pull request
 to switch the order and let me know.
@@ -300,7 +301,7 @@ Please use the following table to sign up.
 
 We use the same order as the topic presentation for undergraduate
 final presentation. An [introduction on how to use Quarto to prepare
-presentation slides](https://github.com/statds/ids-f24/blob/main/templates/presentation.qmd)
+presentation slides](https://github.com/statds/ids-s26/blob/main/templates/presentation.qmd)
 is available under the `templates` directory in
 the classnotes source tree, thank to Zachary Blanchard, which can
 be used as a template to start with.
@@ -330,9 +331,9 @@ Contribution to the class notes is through a `pull request'.
   files and an updated `requirements.txt`.
 
 
-I have added a template file `_mysection.qmd` as an example, which is
-`include`ed in `index.qmd`. See also how `_ethics.qmd` is included
-into `05-ethics_communication.qmd` for example.
+I have added a template file `_mysection.qmd` as an example, 
+which is includeed in `index.qmd`. See also how `_ethics.qmd` is 
+included into `05-ethics_communication.qmd` for example.
 
 
 Here is a checklist to help smooth the process.
