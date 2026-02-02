@@ -129,7 +129,8 @@ Markdown.
     - Wish 3
 + Bennett, Emily
     - Become more experienced and confident with Python
-    - Gain experience with data science problems and relate them to the real world
+    - Gain experience with data science problems and relate them to the 
+    real world
     - Develop better understanding in GitHub, Git, and VSCode
 + Budnick, Kayleigh
 + Burns, Kyle
@@ -137,9 +138,9 @@ Markdown.
 + Davis, Reid
 + Desai, Alysha
 + Faisal, Zaynab
-- Gain a better understanding of data science and real life applications
-- Become more comfortable using Git/GitHub
-- Improve python and coding skills
+    - Gain a better understanding of data science and real life applications
+    - Become more comfortable using Git/GitHub
+    - Improve python and coding skills
 + Ibrahim, Omar
 + Jackson, Brooke
 + Jiang, Ryan
@@ -160,30 +161,41 @@ Markdown.
 + Nash, Jayden
 + Orsini, Ronnie
 + Patel, Reesha
-    - Learn about the process between identifying a problem/question and using data science to find solutitons/get insights.
+    - Learn about the process between identifying a problem/question and 
+    using data science to find solutitons/get insights.
     - Improve my knowledge of packages in Python (scikit-learn, seaborn).
-    - Apply what I've learned in my classes to actual, real-world datasets.
+    - Apply what I've learned in my classes to actual, real-world 
+    datasets.
 + Patel, Vrajkumar
 + Sawyer, Riley
 + Sudarsanam, Shreya
-    - Improve my understanding of how to choose which programming language to use (i.e. R, Python, and SQL), and how to evaluate the strengths and weaknesses of popular languages in each step of the data analysis pipeline.
-    - Become more familiar with machine learning in research and industry based contexts.
-    - Learn/Demystify the process of completing a data science project from start to finish. This may involve mining, cleaning, and visualizing data and creating machine learning models to help make valuable inferences. 
+    - Improve my understanding of how to choose which programming 
+    language to use (i.e. R, Python, and SQL), and how to evaluate the 
+    strengths and weaknesses of popular languages in each step of the 
+    data analysis pipeline.
+    - Become more familiar with machine learning in research and industry 
+    based contexts.
+    - Learn/Demystify the process of completing a data science project 
+    from start to finish. This may involve mining, cleaning, and 
+    visualizing data and creating machine learning models to help make 
+    valuable inferences. 
 + Tessman, Sean
     - Learn how data science applies to sports analytics and performance.
     - Build a strong reproducible workflow with Git, Quarto, and Python.
     - Gain experience with real-world datasets.
 + Trnka, Jonathan
-+ Trnka, Jonathan
-    - I want to get more comfortable using github, linux commands, and more.
+    - I want to get more comfortable using github, linux commands, and 
+    more.
     - Learn more about ML and AI modeling. 
-    - I want to apply what I know to real world data sets from beginning to end.
+    - I want to apply what I know to real world data sets from beginning 
+    to end.
 + Watanabe, Sara
 + Wolven, Alexander
 + Zhang, Jianan
-      - Learn how to use Git and GitHub effectively for collaborative data science projects.
-      - Improve Python data analysis skills (NumPy, Pandas, Matplotlib) through applied projects.
-
+    - Learn how to use Git and GitHub effectively for collaborative data 
+    science projects.
+    - Improve Python data analysis skills (NumPy, Pandas, Matplotlib) 
+    through applied projects.
 + Zharyy, Sofia
 
 
