@@ -181,6 +181,9 @@ Markdown.
     datasets.
 + Patel, Vrajkumar
 + Sawyer, Riley
+    - Learn how to process and interpret real world questions and data.
+    - Work in a collaborative setting using GitHub.
+    - Gain experience using Quarto and Markdown.
 + Sudarsanam, Shreya
     - Improve my understanding of how to choose which programming 
     language to use (i.e. R, Python, and SQL), and how to evaluate the 
@@ -323,7 +326,7 @@ Please use the following table to sign up.
    02/16 | Kwak, Jinha  |   
    02/18 | Jackson, Brooke |
    02/18 | Sudarsanam, Shreya | Database operation with Structured Query Language (SQL)   
-   02/23 | Sawyer, Riley |   
+   02/23 | Sawyer, Riley | Decision tree/tree-based methods   
    02/23 | Faisal, Zaynab |  Import/Export Data 
    02/25 | Tessman, Sean |
    02/25 | Nash, Jayden |   
