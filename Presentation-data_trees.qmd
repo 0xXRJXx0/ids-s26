@@ -16,3 +16,28 @@ format:
       - left=20mm
 ##  docx: Never, unless to accommodate a collaborator
 ---
+### Introduction
+Decision trees (DTs) are non-paremtreic supervised learning method used for classification and regression. This presentation will cover:
+1. How decision trees work
+2. The advanatages and disadvantages of decision trees
+3. Classification
+4. Regression
+5. Helpful function to sumplement the use of DTs
+
+
+### How decision trees work
+
+**Structure of a decision tree**
+A decision tree has a flow chart like structure that allows individuals to clearly visualize the decisioin making process. Decision trees have three main components:
+1. **Root node**: This is the first node of the tree. All following nodes can be traced make to the root node.
+2. **Internal nodes**: These nodes represent the features used for splitting the data. These features determine the path taken from this node onward. There are two types of internal nodes:
+   - **Decision nodes**: nodes where a specific question, atribute, or choice is made to split the data.
+   - **Chance nodes**: these nodes represent uncertainty in the decision-making process. Mulitple outcomes are possible here, so a probability is assigned to each outcome and the path is determined from there.
+3. **Leaf nodes**: These are the terminal nodes of the tree that represent the final output or decision. In classification tasks, leaf nodes represent class labels, while in regression tasks, they represent continuous values.
+
+
+<insert image of a decision tree here>
+# note that decision nodes are square and chance nodes are circular
+
+
+
