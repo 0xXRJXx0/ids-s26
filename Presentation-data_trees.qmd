@@ -6,7 +6,7 @@ number-sections: true
 highlight-style: pygments
 format: 
   html: 
-    code-fold: true
+    code-fold: false
     html-math-method: katex
     embed-resources: true
     self-contained-math: true	
@@ -22,7 +22,7 @@ Decision trees (DTs) are non-paremtreic supervised learning method used for clas
 2. The advanatages and disadvantages of decision trees
 3. Classification
 4. Regression
-5. Helpful function to sumplement the use of DTs
+5. How to use decision trees in Python
 
 
 ### How decision trees work
@@ -39,5 +39,75 @@ A decision tree has a flow chart like structure that allows individuals to clear
 <insert image of a decision tree here>
 # note that decision nodes are square and chance nodes are circular
 
+### Advantages and disadvantages of decision trees
+
+**Advantages**
+* Simple to understand and interpret
+* Requires little data preprocessing, ei:
+    + feature scaling
+    + normalization
+* Can handle both numerical and categorical data
+* Can capture non-linear relationships
+* Can be easily validated with statistical tests
+
+**Disadvantages**
+* Prone to overfitting, especially with deep trees
+* Can be unstable, as small changes in the data can lead to different tree structures
+* Can be biased towards features with more levels
+    + May not perform well with imbalanced datasets
+* May not capture complex relationships as well as other models, such as random forests or gradient boosting machines, ei:
+    + XOR problems
+    + Parity problems
+    + Mulitplexer problems
+
+### Classification
+Decision trees can be used to classify data into different categories. Ei,:
+* Image classification
+* Spam detection
+* Customer segmentation
+
+This uses `DecisionTreeClassifier` from `sklearn.tree` module in Python.
+
+### Regression
+Decision trees can also be used for regression tasks, where the goal is to predict a continuous value. Ei,:
+* Predicting house prices
+* Forecasting sales
+* Estimating average customer spending
+
+This uses `DecisionTreeRegressor` from `sklearn.tree` module in Python.
 
 
+### How to use decision trees in Python
+Decision trees can be implemented in Python using the `scikit-learn` library. 
+
+However, here are other library you may want to use to supplement your DT usage:
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+Before accessing any decision tree model, you will need to import the designated library. Use the following code to install:
+`pip install -U scikit-learn`
+
+Now, you can use the following code to import the indicated modules:
+```{python}
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+```
+
+`confusion_matrix` uses a table layout and is used to evaluate the performance of a classification model. It compares the predicted labels from your trained decision tree with the true labels from the data set.
+* It is a summary of the correct and incorrect predicitons.
+
+`accuracy_score` is a metric used to evaluate the performance of a classification model. It calculates the ratio of correctly predicted instances to the total number of instances in the dataset.
+
+`classification_report` is a function that provides a detailed report of the precision, recall, F1-score, and support for each class in a classification model. It helps to evaluate the performance of the model for each class.
+* precision: number of true positive predictions vs. number of positive predictions made by the model.
+* recall: number of true positive predictions vs. number of actual positive instances in the dataset.
+* F1-score: a combination of both precision and recall, an average of the two.
+
+
+`train_test_split` is a function used to split a dataset into training and testing sets. It allows you to specify the proportion of the dataset to be used for training and testing, as well as other parameters such as random state for reproducibility.
+
+`plot_tree` is a function used to visualize a decision tree model. It generates a graphical representation of the tree structure, including the decision nodes, leaf nodes, and the conditions for splitting the data at each node. This visualization can help to understand how the model makes predictions and to identify important features in the dataset.
