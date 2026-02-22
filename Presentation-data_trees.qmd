@@ -36,8 +36,8 @@ A decision tree has a flow chart like structure that allows individuals to clear
 3. **Leaf nodes**: These are the terminal nodes of the tree that represent the final output or decision. In classification tasks, leaf nodes represent class labels, while in regression tasks, they represent continuous values.
 
 
-<insert image of a decision tree here>
-# note that decision nodes are square and chance nodes are circular
+![Decision Tree example](https://cdn.careerfoundry.com/en/wp-content/uploads/old-blog-uploads/decision-tree-example.jpg)
+
 
 ### Advantages and disadvantages of decision trees
 
