@@ -200,6 +200,32 @@ plt.show()
 
 ### Remedies
 
+**Overfitting**
+When a decision tree is too complex, it may fit the training data too well and be unable to predict new data well.
+
+You can check to see if you have overfit your data by comparing the perfomance on your model on the training data vs. the testing data.
+```{python}
+train_score = clf.score(X_train, y_train)
+test_score = clf.score(X_test, y_test)
+
+print(f"Training score: {train_score}")
+print(f"Testing score: {test_score}")
+```
+* `.score` is used to evaluate the performance of a model on a given dataset. It takes a format as follows:
+`your_model_type.score(X, y)`
+
+If your training score and testing score are similar, your model has not be overfit. If your training score is much higher than your testing score, your model has likely overfit the data.
+
+Here are some remedies for overfitting:
+1. **Pruning**: This involves removing branches of the tree that do not significantly improve your model's predictions. This can be done by:
+* Setting a minimum number of samples
+    `DecisionTreeClassifier(min_samples_split=n)`
+
+2. **Setting a maximum depth**: This limits the depth of the tree, preventing it from becoming too complex and overfitting the data. *A good place to start is n=3.*
+    `DecisionTreeClassifier(max_depth=n)`
+
+3. **Using ensemble methods**: Ensemble methods (ei, random forests) combine multiple decision trees to make predictions, thus generalizing the model and reducing the risk of overfitting.
+
 ### Further readings
 [scikit-learn modules](https://scikit-learn.org/stable/modules/tree.html)
 [Decision tree implementation](https://www.geeksforgeeks.org/machine-learning/decision-tree-implementation-python/)
