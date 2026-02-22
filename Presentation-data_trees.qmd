@@ -23,6 +23,7 @@ Decision trees (DTs) are non-paremtreic supervised learning method used for clas
 3. Classification
 4. Regression
 5. How to use decision trees in Python
+6. Remedies
 
 
 ### How decision trees work
@@ -57,11 +58,13 @@ A decision tree has a flow chart like structure that allows individuals to clear
     + Using ensemble methods like random forests
 * Can be unstable, as small changes in the data can lead to different tree structures
     + Can be remedied by ensemble methods like random forests
-* Can be biased towards features with more levels. May not perform well with imbalanced datasets
-* May not capture complex relationships as well as other models, such as random forests or gradient boosting machines, ei:
-    + XOR problems
-    + Parity problems
-    + Mulitplexer problems
+* Can be biased towards features with more levels. May not perform well with imbalanced datasets. Can be remedies by:
+    + Class weighting
+    + Resampling methods
+* May not capture complex relationships as well as other models, ei:
+    + XOR problems: where classes cannot be separated by a single linear decision boundary
+    + Parity problems: determining if something is even or odd. XOR is a type of parity problem.
+    + Mulitplexer problems: complex, non-linear boolian functions.
 
 ### Classification
 Decision trees can be used to classify data into different categories. Ei,:
@@ -192,4 +195,14 @@ plot_tree(clf,
         class_names=iris.target_names,    #refers to y-variables
         filled=True)    # colors the nodes to indicate the majority class
 plt.show()
+```
+
+
+### Remedies
+
+### Further readings
+[scikit-learn modules](https://scikit-learn.org/stable/modules/tree.html)
+[Decision tree implementation](https://www.geeksforgeeks.org/machine-learning/decision-tree-implementation-python/)
+[What is a decision tree?](https://careerfoundry.com/en/blog/data-analytics/what-is-a-decision-tree/)
+[Work management topics: decision trees](https://www.atlassian.com/work-management/project-management/decision-tree)
 
